@@ -8,7 +8,7 @@
     <!-- Nichts oberhalb schreiben!!-->
     <title>Olga Davidow Jewellery</title>
     <!-- Stylescheet-->
-    <link rel='stylesheet' type='text/css' href='styleIndex.css'>
+    <!--<link rel='stylesheet' type='text/css' href='styleIndex.css'>-->
     <!--schriftart-->
     <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
     <!-- Bootstrap -->
@@ -20,5 +20,10 @@
     <!-- Das neueste kompilierte und minimierte JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+    <!--Stylescheet less-->
+    <link rel="stylesheet/less" type="text/css" href="style/styleIndex.less" />
+    <!-- Link to less.js-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+    
 </head>
 <body>

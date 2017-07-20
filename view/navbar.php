@@ -12,7 +12,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="./about.php">A B O U T</a></li>
+                    <li><a href="./about.php">A B O U T</a></li>
                     <li><a href="./collection.php">C O LL E C T I O N</a></li>
                     <li>
                         <a href="./press.php">P R E SS</a>
@@ -21,3 +21,5 @@
             </div>
     </nav>
 
+
+    
