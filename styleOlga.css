@@ -1,0 +1,337 @@
+* {
+  font-family: 'Jaldi', sans-serif;
+  color:#b86ba3;
+}
+
+body {
+  padding-top: 0px;
+}
+
+a {
+    color:#b86ba3 !important;
+    text-decoration: none;
+  }
+
+.wrapper{
+  padding-top: 70px;
+}
+
+/* Navbar */
+.navbar-custom {
+    color:#b86ba3;
+    border-radius:0;
+    font-size: 16px;
+    height: 80px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#b86ba3;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: #b86ba3;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #FFF5FC;
+    text-align: right;
+}
+
+.navbar-custom .navbar-brand {
+    color:#b86ba3;
+    font-size: 25px;
+}
+.navbar-custom .navbar-toggle {
+    background-color:transparant;
+    margin-top: 13px;
+}
+.navbar-custom .icon-bar {
+    background-color:#b86ba3;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myNavbar{
+  padding-top: 15px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+
+/*Wellcome*/
+
+/*.welcome {
+  height: 200px;
+}*/
+
+#welcomeLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/*#frontphoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+/*.jumbotron {
+  /*background-color: #FEDFFF;*/
+  /*background-color: rgba(255, 245, 252, 0.98) !important;*/
+  /*background-color: #FFF5FC !important;*/
+  /*background-color: rgba(236, 222, 255, 0.15) !important;
+}*/
+
+.imgFrontLeft {
+  border: 5px solid rgba(125, 114, 144, 0.98);
+  margin-right: 2px;
+  margin-top: 10px;
+}
+
+.imgFrontRight {
+  border: 5px solid rgba(188, 166, 213, 0.98);
+  margin-left: 2px;
+  margin-top: 10px;
+}
+
+.imgFrontRight2 {
+  margin-right: 2px;
+  margin-top: 10px;
+}
+
+.imgFrontLeft3 {
+  padding-right: 2px;
+  padding-top: 10px;
+}
+
+.logoCat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+  margin-top: 25px;
+}
+/*site - collection*/
+.welcomeJuwellery, .tumbnail {
+    font-family: 'Jaldi', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.headline {
+    background-color: rgba(255, 245, 252, 0.98) !important;
+    height: 100px;
+    padding-top: 18px;
+    margin-bottom: 20px;
+}
+
+.col-xs-12 {
+  align-items: center;
+}
+
+/*Collection images */
+
+.img {
+  border: 20px solid;
+  border-color: rgba(255, 245, 252, 0.98);
+  margin-top: 20px;
+}
+.imglogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.press {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*collection - black*/
+
+.black {
+  margin-top: 30px;
+}
+
+#pressback {
+  margin-top: 40px !important;
+}
+
+#catLogoBlack {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+/*collection - leather*/
+
+.leather {
+  margin-top: 80px;
+}
+
+ /*collectio - green */
+ .amethyst {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ #maclachit {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+/*about*/
+
+.about, h4 {
+  position: relative;
+  top: 50%;
+}
+
+.photoOlga {
+  background-color: rgba(255, 245, 252, 0.98);
+}
+
+#photoOlga {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*footer*/
+.footer {
+  font-family: 'Jaldi', sans-serif;
+  margin-top: 30px;
+}
+
+
+address {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+#made {
+  font-size: 12px;
+}
+
+/*HEAD BILD*/
+
+html,body{
+  margin:0;
+  height:120%;
+
+}
+.header{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:700px;
+  min-width:300px;
+  color:#eee;
+}
+.header:after{
+  content:"";
+  width:100%;
+  height:40%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+}
+.header:before{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
+  background:#1B2030 url(img/model/frontModelMedium.jpg) top center no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  animation: grow 60s  linear 10ms infinite;
+  transition:all 0.2s ease-in-out;
+  z-index:-2
+}
+.header a{
+  color:#eee
+}
+
+.sides, .info{
+  flex: 0 0 auto;
+  width:50%
+}
+.info{
+  width:100%;
+  padding:15% 10% 0 10%;
+  text-align:center;
+  text-shadow:0 2px 3px rgba(0,0,0,0.2)
+}
+/*.author{
+  display:inline-block;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:url(http://favim.com/media/uploads/images/610/140308/black-n-white-cute-funny-iron-man-Favim.com-1462744.jpg) center no-repeat;
+  background-size:cover;
+  box-shadow:0 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:3px
+}*/
+.info h4, .meta{
+  font-size:0.7em
+}
+.meta{
+  font-style:italic;
+}
+/*PIC GETTING BIGGER*/
+@keyframes grow{
+  0% { transform:scale(1)}
+  50% { transform:scale(1.2)}
+}
+
+.content{
+  padding:5% 10%;
+  text-align:justify
+}
+.btn{
+  color:#333;
+  border:2px solid;
+  border-radius:3px;
+  text-decoration:none;
+  display:inline-block;
+  padding:5px 10px;
+  font-weight:600
+}
+
+.twtr{
+  margin-top:100px
+}
