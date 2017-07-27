@@ -1,19 +1,19 @@
+@import "../variables.less";
+@import "../modules.less";
+
 * {
   font-family: 'Jaldi', sans-serif;
-  color:#3B3E40;
-  /*color:rgb(188, 166, 213) alte farbe schrift*/
+  color:@lightblack;
 }
 
 body {
-/*  padding-top: 0px;*/
   margin: 0;
   padding: 0;
 }
 
 
 a {
-    /*color:rgb(188, 166, 213) !important; alte farbe*/
-    color: #3B3E40 !important;
+    color: @lightblack !important;
     text-decoration: none;
   }
 
@@ -23,35 +23,37 @@ a {
 
 /* Navbar */
 .navbar-custom {
-    color: rgba(188, 166, 213, 0.98);
+    color: @purple;
     border-radius:0;
     font-size: 16px;
     height: 80px;
     background-color:#fff;
 }
 
-.navbar-custom .navbar-nav > .active > a {
-    color: rgba(188, 166, 213, 0.98);
-    background-color:transparent;
+.navbar-custom .navbar-nav {
+    a:hover, a:focus, .open {
+        text-decoration: none;
+        background-color: @lightpurple;
+        text-align: right;
+    }
 }
 
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus,
-.navbar-custom .navbar-nav > .open >a {
-    text-decoration: none;
-    background-color: rgba(188, 166, 213, 0.3);
-    text-align: right;
-}
-
+//.navbar-custom .navbar-nav > li > a:hover,
+//.navbar-custom .navbar-nav > li > a:focus,
+//.navbar-custom .navbar-nav > .active > a:hover,
+//.navbar-custom .navbar-nav > .active > a:focus,
+//.navbar-custom .navbar-nav > .open > a {
+//    text-decoration: none;
+//    background-color: @lightpurple;
+//    text-align: right;
+//}
 
 .navbar-custom .navbar-toggle {
     background-color:transparant;
     margin-top: 13px;
 }
 .navbar-custom .icon-bar {
-    background-color:rgba(188, 166, 213, 0.98);
+    background-color: @purple;
 }
 
 .logo {
@@ -88,18 +90,18 @@ a {
 }
 
 .jumbotron {
-  background-color: rgba(188, 166, 213, 0.3) !important;
+  background-color: @lightpurple !important;
 }
 
 .headline {
-    background-color: rgba(188, 166, 213, 0.3) !important;
+    background-color: @lightpurple !important;
     height: 100px;
     padding-top: 18px;
     margin-bottom: 20px;
 }
 
 .headlineDoubleName {
-    background-color: rgba(188, 166, 213, 0.3) !important;
+    background-color: @lightpurple !important;
     height: 150px;
     padding-top: 18px;
     margin-bottom: 20px;
@@ -109,8 +111,7 @@ a {
 /*images on the seite: Collection*/
 
 .img {
-  border: 10px solid;
-  border-color: rgba(188, 166, 213, 0.3);
+  .borderedLightPurple;
   margin-top: 20px;
 }
 
@@ -123,8 +124,7 @@ a {
 }
 
 .imgLong {
-  border: 10px solid;
-  border-color: rgba(188, 166, 213, 0.3);
+  .borderedLightPurple;
   margin-top: 20px;
 }
 
@@ -177,11 +177,11 @@ a {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 25px; /* Place the button at the bottom of the page */
-    right: 10px; /* Place the button 30px from the right */
+    right: 10px; /* Place the button 10px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: rgba(188, 166, 213, 0.3);
+    background-color: @lightpurple;
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -189,7 +189,7 @@ a {
 }
 
 #topBtn:hover {
-    background-color: rgb(188, 166, 213); /* Add a dark-grey background on hover */
+    background-color: @purple; /* Add darker background on hover */
 }
 
 /*Seite PRESS */
@@ -201,8 +201,7 @@ a {
 }
 
 .imgPress {
-  border: 10px solid;
-  border-color: rgba(188, 166, 213, 0.3);
+  .borderedLightPurple;
   margin: auto;
   margin-bottom: 20px;
   max-width: 100%;
