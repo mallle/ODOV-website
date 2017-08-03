@@ -1,4 +1,3 @@
-
 <!-- navbar -->
 <body data-spy="scroll" data-target=".navbar-fixed-top" >
     <nav class="navbar navbar-custom navbar-fixed-top">

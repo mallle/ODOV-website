@@ -21,7 +21,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    
     <!--Stylescheet less-->
-    <link rel="stylesheet/less" type="text/css" href="../LESS/pages/collection.less" />
+    <link rel="stylesheet/less" type="text/css" href="../LESS/main.less" />
     <!-- Link to less.js-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
 

@@ -1,0 +1,469 @@
+@import "variables.less";
+@import "modules.less";
+
+
+// indexseite
+* {
+  font-family: 'Jaldi', sans-serif;
+  color: @lightblack;
+}
+
+a {
+    color: @lightblack !important;
+    text-decoration: none;
+}
+
+
+/* Navbar */
+#pushBack {
+  margin: 0;
+  padding: 0;
+  height: 0em;
+}
+
+#navBar {
+  position: static;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 30px;
+  background-color: @white;
+}
+
+.navbar-custom {
+    color: @purple;
+    border-radius:0;
+    font-size: 16px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: @purple;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: @purple;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: @lightpurple;
+    text-align: right;
+}
+
+/*
+.navbar-custom .navbar-brand {
+    color:rgba(188, 166, 213, 0.98);
+    font-size: 25px;
+}
+*/
+.navbar-custom .navbar-toggle {
+    background-color:transparant;
+    margin-top: 13px;
+}
+.navbar-custom .icon-bar {
+    background-color: @purple;
+}
+
+/*
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+
+#myNavbar{
+  text-align: right;
+  padding-right: 20px;
+}
+
+#welcomeLogo {
+ .centerPic;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/*images*/
+
+.wrapper {
+  margin-top: 20px;
+}
+
+.welcomeJuwellery {
+    font-family: 'Jaldi', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.imgFront {
+  .borderdThin;
+  float: left;
+}
+
+.imgLogo {
+  margin-right: 2px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.imgFrontRight {
+  .borderdThin;
+  float: right;
+}
+
+
+@media (max-width: 767px) {
+.col-xs-12, .imgFront, .imgLogo, .imgFrontRight {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+}
+
+/*footer*/
+.footer {
+    font-family: 'Jaldi', sans-serif;
+    margin-top: 60px;
+    border-top: 3px solid @lightpurple;
+    background-color: @lightpurple;
+  }
+
+
+address {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+#made {
+  font-size: 12px;
+}
+
+/*INDEX HEAD BILD*/
+
+html, body{
+  margin:0;
+  height:120%;
+}
+
+.header{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:700px;
+  min-width:300px;
+  color:#eee;
+}
+.header:after{
+  content:"";
+  width:100%;
+  height:40%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: @gradient
+}
+.header:before{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
+  background:#1B2030 url(/img/model/frontModelMedium.jpg) top center no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  animation: grow 60s  linear 10ms infinite;
+  transition:all 0.2s ease-in-out;
+  z-index:-2
+}
+
+.sides {
+  flex: 0 0 auto;
+  width:50%
+}
+
+/*PIC GETTING BIGGER*/
+@keyframes grow{
+  0% { transform:scale(1)}
+  50% { transform:scale(1.2)}
+}
+
+.frontButtonDown {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/*schroll button*/
+#section05 a {
+  padding-top: 70px;
+}
+#section05 a span {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  width: 24px;
+  height: 24px; 
+  border-left: 3px solid @purple;
+  border-bottom: 3px solid @purple;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+// collection
+
+.wrapper{
+  padding-top: 70px;
+}
+
+/* Navbar */
+.navbar-custom {
+    color: @purple;
+    border-radius:0;
+    font-size: 16px;
+    height: 80px;
+    background-color:#fff;
+}
+
+.navbar-custom .navbar-nav {
+    a:hover, a:focus, .open {
+        text-decoration: none;
+        background-color: @lightpurple;
+        text-align: right;
+    }
+}
+
+.navbar-custom .navbar-toggle {
+    background-color:transparant;
+    margin-top: 13px;
+}
+.navbar-custom .icon-bar {
+    background-color: @purple;
+}
+
+.logo {
+ .centerPic;
+}
+
+#myNavbar{
+  padding-top: 14px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+#welcomeLogo {
+  .centerPic;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/*site - collection*/
+.welcomeJuwellery, .tumbnail {
+    font-family: 'Jaldi', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.pressText {
+  padding-right: 30px !important;
+
+}
+
+.jumbotron {
+  background-color: @lightpurple !important;
+}
+
+.headline {
+    background-color: @lightpurple !important;
+    height: 100px;
+    padding-top: 18px;
+    margin-bottom: 20px;
+}
+
+.headlineDoubleName {
+    background-color: @lightpurple !important;
+    height: 150px;
+    padding-top: 18px;
+    margin-bottom: 20px;
+}
+
+
+/*images on the seite: Collection*/
+
+.img {
+  .borderedLightPurple;
+  margin-top: 20px;
+}
+
+.imglogo {
+  .centerPic;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.imgLong {
+  .borderedLightPurple;
+  margin-top: 20px;
+}
+
+.press {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.leather {
+  margin-top: 80px;
+}
+
+
+@media (max-width: 767px) {
+.img, .img-noir{
+  .centerPic;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  max-height: 500px;
+}
+}
+
+
+@media (max-width: 683px) {
+.col-xs-12, .imgLong{
+  .centerPic;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+}
+
+@media (max-width: 318px) {
+.col-xs-12, .img{
+  .centerPic;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+}
+
+/*Button to top*/
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 25px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 10px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: @lightpurple;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#topBtn:hover {
+    background-color: @purple; /* Add darker background on hover */
+}
+
+/*Seite PRESS */
+.row {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.imgPress {
+  .borderedLightPurple;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*about*/
+.about, h4 {
+  position: relative;
+  top: 50%;
+}
+
+.photoOlga {
+  .centerPic;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+/*imprint*/
+.imprint{
+  font-family: 'Jaldi', sans-serif;
+}
+
+/*footer*/
+.footer {
+    font-family: 'Jaldi', sans-serif;
+    margin-top: 60px;
+    border-top: 3px solid rgba(188, 166, 213, 0.3);
+    background-color: rgba(188, 166, 213, 0.3);
+  }
+
+
+address {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+#made {
+  font-size: 12px;
+}
