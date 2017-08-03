@@ -1,10 +1,8 @@
-@lightblack: #3B3E40;
-@purple: rgba(188, 166, 213, 0.98);
-@lightpurple: rgba(188, 166, 213, 0.3);
-@white: #fff;
-@gradient: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+@import "variables.less";
+@import "modules.less";
 
 
+// indexseite
 * {
   font-family: 'Jaldi', sans-serif;
   color: @lightblack;
@@ -13,7 +11,7 @@
 a {
     color: @lightblack !important;
     text-decoration: none;
-  }
+}
 
 
 /* Navbar */
@@ -57,12 +55,6 @@ a {
     text-align: right;
 }
 
-/*
-.navbar-custom .navbar-brand {
-    color:rgba(188, 166, 213, 0.98);
-    font-size: 25px;
-}
-*/
 .navbar-custom .navbar-toggle {
     background-color:transparant;
     margin-top: 13px;
@@ -71,23 +63,13 @@ a {
     background-color: @purple;
 }
 
-/*
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
-
 #myNavbar{
   text-align: right;
   padding-right: 20px;
 }
 
 #welcomeLogo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+ .centerPic;
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -106,9 +88,7 @@ a {
 }
 
 .imgFront {
-  border: 5px solid @lightpurple;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  .borderdThin;
   float: left;
 }
 
@@ -119,9 +99,7 @@ a {
 }
 
 .imgFrontRight {
-  border: 5px solid @lightpurple;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  .borderdThin;
   float: right;
 }
 
@@ -268,4 +246,210 @@ html, body{
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
+}
+
+// collection
+
+.wrapper{
+  padding-top: 70px;
+}
+
+/* Navbar */
+.navbar-custom {
+    color: @purple;
+    border-radius:0;
+    font-size: 16px;
+    height: 80px;
+    background-color:#fff;
+}
+
+.navbar-custom .navbar-nav {
+    a:hover, a:focus, .open {
+        text-decoration: none;
+        background-color: @lightpurple;
+        text-align: right;
+    }
+}
+
+.navbar-custom .navbar-toggle {
+    background-color:transparant;
+    margin-top: 13px;
+}
+.navbar-custom .icon-bar {
+    background-color: @purple;
+}
+
+.logo {
+ .centerPic;
+}
+
+#myNavbar{
+  padding-top: 14px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+#welcomeLogo {
+  .centerPic;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/*site - collection*/
+.welcomeJuwellery, .tumbnail {
+    font-family: 'Jaldi', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.pressText {
+  padding-right: 30px !important;
+
+}
+
+.jumbotron {
+  background-color: @lightpurple !important;
+}
+
+.headline {
+    background-color: @lightpurple !important;
+    height: 100px;
+    padding-top: 18px;
+    margin-bottom: 20px;
+}
+
+.headlineDoubleName {
+    background-color: @lightpurple !important;
+    height: 150px;
+    padding-top: 18px;
+    margin-bottom: 20px;
+}
+
+
+/*images on the seite: Collection*/
+
+.img {
+  .borderedLightPurple;
+  margin-top: 20px;
+}
+
+.imglogo {
+  .centerPic;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.imgLong {
+  .borderedLightPurple;
+  margin-top: 20px;
+}
+
+.press {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.leather {
+  margin-top: 80px;
+}
+
+
+@media (max-width: 767px) {
+.img, .img-noir{
+  .centerPic;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  max-height: 500px;
+}
+}
+
+
+@media (max-width: 683px) {
+.col-xs-12, .imgLong{
+  .centerPic;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+}
+
+@media (max-width: 318px) {
+.col-xs-12, .img{
+  .centerPic;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+}
+
+/*Button to top*/
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 25px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 10px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: @lightpurple;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#topBtn:hover {
+    background-color: @purple; /* Add darker background on hover */
+}
+
+/*Seite PRESS */
+.row {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.imgPress {
+  .borderedLightPurple;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*about*/
+.about, h4 {
+  position: relative;
+  top: 50%;
+}
+
+.photoOlga {
+  .centerPic;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+/*imprint*/
+.imprint{
+  font-family: 'Jaldi', sans-serif;
+}
+
+/*footer*/
+.footer {
+    font-family: 'Jaldi', sans-serif;
+    margin-top: 60px;
+    border-top: 3px solid rgba(188, 166, 213, 0.3);
+    background-color: rgba(188, 166, 213, 0.3);
+  }
+
+
+address {
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+#made {
+  font-size: 12px;
 }
