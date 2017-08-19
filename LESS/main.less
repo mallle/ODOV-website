@@ -1,8 +1,6 @@
 @import "variables.less";
 @import "modules.less";
 
-
-// indexseite
 * {
   font-family: 'Jaldi', sans-serif;
   color: @lightblack;
@@ -14,7 +12,7 @@ a {
 }
 
 
-/* Navbar */
+/* Navbar INDEX */
 #pushBack {
   margin: 0;
   padding: 0;
@@ -30,6 +28,8 @@ a {
   background-color: @white;
 }
 
+
+/* Navbar INDEX/ALLSEITES */
 .navbar-custom {
     color: @purple;
     border-radius:0;
@@ -72,6 +72,15 @@ a {
  .centerPic;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+/* Navbar for all sites beside Index*/
+.navbar-custom, .navbarAll {
+    color: @purple;
+    border-radius:0;
+    font-size: 16px;
+    height: 80px;
+    background-color:#fff;
 }
 
 /*images*/
@@ -185,7 +194,11 @@ html, body{
   width:50%
 }
 
-/*PIC GETTING BIGGER*/
+.brand {
+  color: @lightpurple !important;
+}
+
+/* INDEX-PIC GETTING BIGGER*/
 @keyframes grow{
   0% { transform:scale(1)}
   50% { transform:scale(1.2)}
@@ -203,7 +216,7 @@ html, body{
 }
 
 
-/*schroll button*/
+/* schroll button */
 #section05 a {
   padding-top: 70px;
 }
@@ -248,54 +261,12 @@ html, body{
   }
 }
 
-// collection
+/* site - COLLECTION */
 
 .wrapper{
   padding-top: 70px;
 }
 
-/* Navbar */
-.navbar-custom {
-    color: @purple;
-    border-radius:0;
-    font-size: 16px;
-    height: 80px;
-    background-color:#fff;
-}
-
-.navbar-custom .navbar-nav {
-    a:hover, a:focus, .open {
-        text-decoration: none;
-        background-color: @lightpurple;
-        text-align: right;
-    }
-}
-
-.navbar-custom .navbar-toggle {
-    background-color:transparant;
-    margin-top: 13px;
-}
-.navbar-custom .icon-bar {
-    background-color: @purple;
-}
-
-.logo {
- .centerPic;
-}
-
-#myNavbar{
-  padding-top: 14px;
-  text-align: right;
-  padding-right: 20px;
-}
-
-#welcomeLogo {
-  .centerPic;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-/*site - collection*/
 .welcomeJuwellery, .tumbnail {
     font-family: 'Jaldi', sans-serif;
     text-align: center;
@@ -327,7 +298,7 @@ html, body{
 }
 
 
-/*images on the seite: Collection*/
+/* images on the seite: COLLECTION*/
 
 .img {
   .borderedLightPurple;
@@ -383,27 +354,7 @@ html, body{
 }
 }
 
-/*Button to top*/
-#topBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 25px; /* Place the button at the bottom of the page */
-    right: 10px; /* Place the button 10px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: @lightpurple;
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-}
-
-#topBtn:hover {
-    background-color: @purple; /* Add darker background on hover */
-}
-
-/*Seite PRESS */
+/* Seite PRESS */
 .row {
   margin: auto;
   height: 100%;
@@ -419,7 +370,7 @@ html, body{
   max-height: 100%;
 }
 
-/*about*/
+/* Site ABOUT */
 .about, h4 {
   position: relative;
   top: 50%;
@@ -431,19 +382,38 @@ html, body{
   margin-top: 50px;
 }
 
-/*imprint*/
+/* Site IMPRINT*/
 .imprint{
   font-family: 'Jaldi', sans-serif;
 }
 
-/*footer*/
+/* Button to top on Collection and Press*/
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 25px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 10px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: @lightpurple; /*Color*/
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#topBtn:hover {
+    background-color: @purple; /* Add darker background on hover */
+}
+
+/* footer */
 .footer {
     font-family: 'Jaldi', sans-serif;
     margin-top: 60px;
-    border-top: 3px solid rgba(188, 166, 213, 0.3);
-    background-color: rgba(188, 166, 213, 0.3);
+    border-top: 3px solid @purple;
+    background-color: @lightpurple;
   }
-
 
 address {
     font-size: 16px;
@@ -453,3 +423,4 @@ address {
 #made {
   font-size: 12px;
 }
+
