@@ -20,6 +20,7 @@
         <li><a href="./press.php">P R E SS</a></li>
         </ul>
       </div>
+      <p class="navbarBrandText">J E W E LL E R Y  &nbsp; by &nbsp; O L G A &nbsp; D A V I D O W </p>
     </nav>
 
 <div class="wrapper">
