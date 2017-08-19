@@ -9,6 +9,7 @@
 
 <div class="header" id="head">
   <div class="sides">
+  <a class="navbar-brand brand" href="./index.php"><!-- <img src="img/imgsolga/logoCat.png" alt="logo" style="height: 60px"> -->J E W E L L W E R Y <br> by <br> O L G A <br> D A V I D O W</a>
   </div>
   <div class="sides">
 <!--    <button class="frontButtonDown"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></button>  -->

@@ -1,6 +1,6 @@
 <!-- navbar -->
 <body data-spy="scroll" data-target=".navbar-fixed-top" >
-    <nav class="navbar navbar-custom navbar-fixed-top">
+    <nav class="navbar navbar-custom navbar-fixed-top navbarAll">
             <div class="navbar-header img-responsive">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
