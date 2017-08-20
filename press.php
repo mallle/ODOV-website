@@ -23,25 +23,35 @@
 
 <div class="wrapper">
 
-
   <div class="welcomeJuwellery" id="overview">
       <div class="container jumbotron">
           <h2 class="pressText">P R E SS</h2>
           <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <a href="#elle"><h4 class="text-center">E LL E <br> P L U S</h4></a>
+              <div class="col-xs-12 col-md-1">
+              </div>
+              <div class="col-xs-12 col-md-2">
+                 <a href="#elle"><h4 class="text-center">E LL E <br> P L U S</h4></a>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                    <a href="#europa"><h4>E U R O P A</h4></a>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                    <a href="#inStyle"><h4>I N<br>S T Y L E</h4></a>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                   <a href="#schmuck"><h4>S C H M U C K</h4></a>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                    <a href="#various"><h4>V A R I O U S <br> M A G A Z I N E S</h4></a>
+              </div>
+              <div class="col-xs-12 col-md-1">
+              </div>
             </div>
-            <div class="col-xs-12 col-md-4">
-                  <a href="#europa"><h4>E U R O P A</h4></a>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                  <a href="#inStyle"><h4>I N<br>S T Y L E</h4></a>
-            </div>
-          </div>
-      </div>
-  </div>
+        </div>
+    </div>
 
-  <div id="elle">
+
+  <div id="elle" style="padding-top: 20px">
   </div>
   <div class="leather">
       <div class="headlineDoubleName">
@@ -141,6 +151,72 @@
               </div>
               <div class="col-xs-12 col-sm-6 col-md-6">
                   <img class="imgPress img-responsive" src="img/press/InStyle_August 2007_2.jpg" alt="pressInStyle">
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div id="schmuck">
+  </div>
+  <div class="leather">
+      <div class="headline">
+          <h2 class="text-center">S C H M U C K</h2>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/Schmuck2.1.jpg" alt="pressSchmuck">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/schmuck2.2.jpg" alt="pressSchmuck">
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/Schmuck1.1.jpg" alt="pressSchmuck">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/schmuck1.2.jpg" alt="pressSchmuck">
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div id="various">
+  </div>
+  <div class="leather">
+      <div class="headlineDoubleName">
+          <h2 class="text-center">V A R I O U S <br> M A G A Z I N E S</h2>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/Mytime1.1.jpg" alt="pressSchmuck">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/Mytime1.2.jpg" alt="pressSchmuck">
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/1st+First1.1.jpg" alt="pressSchmuck">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/1st+First1.2.jpg" alt="pressSchmuck">
+              </div>
+          </div>
+      </div>
+            <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/woman1.1.jpg" alt="pressSchmuck">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                  <img class="imgPress img-responsive" src="img/press/woman1.2.jpg" alt="pressSchmuck">
               </div>
           </div>
       </div>

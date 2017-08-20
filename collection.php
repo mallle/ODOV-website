@@ -56,7 +56,7 @@
     </div>
 
 <!-- LEATHER -->
-    <div id="leather">
+    <div id="leather" style="padding-top: 20px">
     </div>
     <div class="leather">
         <div class="headline">

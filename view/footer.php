@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <address>
-                    <br><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Tel.: XXXXXXXXXX<br>
+                    <br><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Tel.: +49 89 6900 501<br>
                     <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> davidow@olgadavidow.com
                     </address>
                 </div>
@@ -22,7 +22,7 @@
                         <a class="text-left" href="imprint.php">Imprint</a>
                     </div>
                     <div class="col-xs-6 col-md-6">
-                        <p class="text-right">Made with<span class="glyphicon glyphicon-heart" aria-hidden="true"></span> in münchen</p>
+                        <p class="text-right">Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> in münchen by Malene</p>
                     </div>
                 </div>
             </div>

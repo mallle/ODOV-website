@@ -4,7 +4,6 @@
 ?>
 
 
-
 <!--Welcome-->
 
 <div class="header" id="head">
@@ -31,7 +30,7 @@ include_once 'view/navbarIndex.php';
   </div>
 </div>
 
-<!--pics for collection -->
+<!--ing for collection -->
 <div class="wrapper">
   <div class="welcomeJuwellery">
       <div class="container">
@@ -87,12 +86,12 @@ include_once 'view/navbarIndex.php';
 Tauschbild01a = new Image();
 Tauschbild01a.src = "img/index/Leder_Silber_Turkis_Koralle_Index.jpg";
 Tauschbild01b = new Image();
-Tauschbild01b.src = "img/index/leather_text.jpg"; /* Highlight-Grafik */
+Tauschbild01b.src = "img/index/Leder_Text.jpg"; /* Highlight-Grafik */
 
 Tauschbild02a = new Image();
 Tauschbild02a.src = "img/index/Magic_Noir_Halsband_Silber_Onyx_Seide_Index.jpg";
 Tauschbild02b = new Image();
-Tauschbild02b.src = "img/index/Magic_Noir_Text.jpg"; /* Highlight-Grafik */
+Tauschbild02b.src = "img/index/MagicNoir_Text.jpg"; /* Highlight-Grafik */
 
 Tauschbild03a = new Image();
 Tauschbild03a.src = "img/index/perls_Silber_Onyx_Index.jpg";
@@ -102,12 +101,12 @@ Tauschbild03b.src = "img/index/pearls_text.jpg"; /* Highlight-Grafik */
 Tauschbild04a = new Image();
 Tauschbild04a.src = "img/index/Zodiac_fische_I.jpg";
 Tauschbild04b = new Image();
-Tauschbild04b.src = "img/index/zodiac_Info.jpg"; /* Highlight-Grafik */
+Tauschbild04b.src = "img/index/Zodiac_text.jpg"; /* Highlight-Grafik */
 
 Tauschbild05a = new Image();
 Tauschbild05a.src = "img/index/Saint_Tropez_25_Silber_Perlen_Chrysoplas_Onyx_Kette_I.jpg";
 Tauschbild05b = new Image();
-Tauschbild05b.src = "img/index/saint_tropez_text.jpg"; /* Highlight-Grafik */
+Tauschbild05b.src = "img/index/SaintTropez_text.jpg"; /* Highlight-Grafik */
 
 function Wechseln(name,Tauschbildname) {
   document.images[name].src = eval(Tauschbildname + ".src")
