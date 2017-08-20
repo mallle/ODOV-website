@@ -1,13 +1,14 @@
 <?php
  include_once 'view/header.php';
 ?>
+
 <nav class="navbar navbar-custom navbar-fixed-top navbarAll">
-	<div class="navbar-header img-responsive" id="navAll">  
+    <div class="navbar-header img-responsive">  
         <a class="navbar-brand" href="./index.php"><img src="img/imgsolga/logoCat1.jpg" alt="logo" style="height: 60px"></a>
+        <p class="navbarBrandText">J E W E LL E R Y  &nbsp; by <br> O L G A &nbsp; D A V I D O W </p>   
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse navAll" id="myNavbar"> 
     </div>
-	<p class="navbarBrandText">J E W E LL E R Y  &nbsp; by &nbsp; O L G A &nbsp; D A V I D O W </p>
 </nav>
 
 <div class="wrapper">

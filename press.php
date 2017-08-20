@@ -4,7 +4,7 @@
 ?>
     <nav class="navbar navbar-custom navbar-fixed-top navbarAll">
       <div class="navbar-header img-responsive">  
-        <button type="button" class="navbar-toggle navAll" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>  
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
