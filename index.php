@@ -1,6 +1,6 @@
 
 <?php
- include_once 'view/headerIndex.php';
+ include_once 'view/header.php';
 ?>
 
 
