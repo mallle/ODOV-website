@@ -42,7 +42,7 @@
                    <a href="#schmuck"><h4>S C H M U C K</h4></a>
               </div>
               <div class="col-xs-12 col-md-2">
-                    <a href="#various"><h4>V A R I O U S <br> M A G A Z I N S</h4></a>
+                    <a href="#various"><h4>V A R I O U S <br> M A G A Z I N E S</h4></a>
               </div>
               <div class="col-xs-12 col-md-1">
               </div>
@@ -188,7 +188,7 @@
   </div>
   <div class="leather">
       <div class="headlineDoubleName">
-          <h2 class="text-center">V A R I O U S <br> M A G A Z I N S</h2>
+          <h2 class="text-center">V A R I O U S <br> M A G A Z I N E S</h2>
       </div>
       <div class="container">
           <div class="row">
