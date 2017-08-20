@@ -1,9 +1,29 @@
 <?php
+
  include_once 'view/header.php';
 
- include_once 'view/navbar.php';
-
 ?>
+
+    <nav class="navbar navbar-custom navbar-fixed-top navbarAll">
+      <div class="navbar-header img-responsive">  
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="./index.php"><img src="img/imgsolga/logoCat1.jpg" alt="logo" style="height: 60px"></a>
+          <p class="navbarBrandText">J E W E LL E R Y  &nbsp; by <br> O L G A &nbsp; D A V I D O W </p>
+      </div>
+      <div class="collapse navbar-collapse navAll" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">   
+          <li><a href="./about.php">A B O U T</a></li>
+          <li class="active"><a href="./collection.php">C O LL E C T I O N</a></li>
+          <li><a href="./press.php">P R E SS</a></li>
+        </ul>  
+      </div>
+    </nav>
+
+
 <div class="wrapper">
 
 <!--overview-->
@@ -313,12 +333,16 @@
         </div>
     </div>
 
-<button onclick="topFunction()" id="topBtn" title="Go to top"><span class="glyphicon glyphicon glyphicon-menu-up" aria-hidden="true"></span></button>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><span class="glyphicon glyphicon glyphicon-menu-up" aria-hidden="true"></span></button>
+
+</div>
 
 <script>
     
-    // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+  scrollFunction()
+};
 
 function scrollFunction() {
     if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
@@ -334,65 +358,65 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
 
-Tauschbild01a = new Image();
-Tauschbild01a.src = "img/zodiac/zodiac/krebs.jpg";
-Tauschbild01b = new Image();
-Tauschbild01b.src = "img/zodiac/zodiac/krebs_text.jpg"; /* Highlight-Grafik */
-    
-Tauschbild02a = new Image();
-Tauschbild02a.src = "img/zodiac/zodiac/jungfrau.jpg";
-Tauschbild02b = new Image();
-Tauschbild02b.src = "img/zodiac/zodiac/jungfrau_text.jpg"; /* Highlight-Grafik */
-    
-Tauschbild03a = new Image();
-Tauschbild03a.src = "img/zodiac/zodiac/fische.jpg";
-Tauschbild03b = new Image();
-Tauschbild03b.src = "img/zodiac/zodiac/fische_text.jpg"; /* Highlight-Grafik */
-    
-Tauschbild04a = new Image();
-Tauschbild04a.src = "img/zodiac/zodiac/loewe.jpg";
-Tauschbild04b = new Image();
-Tauschbild04b.src = "img/zodiac/zodiac/loewe_text.jpg"; /* Highlight-Grafik */
+    Tauschbild01a = new Image();
+    Tauschbild01a.src = "img/zodiac/zodiac/krebs.jpg";
+    Tauschbild01b = new Image();
+    Tauschbild01b.src = "img/zodiac/zodiac/krebs_text.jpg"; /* Highlight-Grafik */
+        
+    Tauschbild02a = new Image();
+    Tauschbild02a.src = "img/zodiac/zodiac/jungfrau.jpg";
+    Tauschbild02b = new Image();
+    Tauschbild02b.src = "img/zodiac/zodiac/jungfrau_text.jpg"; /* Highlight-Grafik */
+        
+    Tauschbild03a = new Image();
+    Tauschbild03a.src = "img/zodiac/zodiac/fische.jpg";
+    Tauschbild03b = new Image();
+    Tauschbild03b.src = "img/zodiac/zodiac/fische_text.jpg"; /* Highlight-Grafik */
+        
+    Tauschbild04a = new Image();
+    Tauschbild04a.src = "img/zodiac/zodiac/loewe.jpg";
+    Tauschbild04b = new Image();
+    Tauschbild04b.src = "img/zodiac/zodiac/loewe_text.jpg"; /* Highlight-Grafik */
 
-Tauschbild05a = new Image();
-Tauschbild05a.src = "img/zodiac/zodiac/schutze.jpg";
-Tauschbild05b = new Image();
-Tauschbild05b.src = "img/zodiac/zodiac/schutze_text.jpg"; /* Highlight-Grafik */
-    
-Tauschbild06a = new Image();
-Tauschbild06a.src = "img/zodiac/zodiac/scorpion.jpg";
-Tauschbild06b = new Image();
-Tauschbild06b.src = "img/zodiac/zodiac/scorpion_text.jpg"; /* Highlight-Grafik */
-    
-Tauschbild07a = new Image();
-Tauschbild07a.src = "img/zodiac/zodiac/steinbock.jpg";
-Tauschbild07b = new Image();
-Tauschbild07b.src = "img/zodiac/zodiac/steinbock_text.jpg"; /* Highlight-Grafik */
-    
-Tauschbild08a = new Image();
-Tauschbild08a.src = "img/zodiac/zodiac/stier.jpg";
-Tauschbild08b = new Image();
-Tauschbild08b.src = "img/zodiac/zodiac/stier_text.jpg"; /* Highlight-Grafik */
+    Tauschbild05a = new Image();
+    Tauschbild05a.src = "img/zodiac/zodiac/schutze.jpg";
+    Tauschbild05b = new Image();
+    Tauschbild05b.src = "img/zodiac/zodiac/schutze_text.jpg"; /* Highlight-Grafik */
+        
+    Tauschbild06a = new Image();
+    Tauschbild06a.src = "img/zodiac/zodiac/scorpion.jpg";
+    Tauschbild06b = new Image();
+    Tauschbild06b.src = "img/zodiac/zodiac/scorpion_text.jpg"; /* Highlight-Grafik */
+        
+    Tauschbild07a = new Image();
+    Tauschbild07a.src = "img/zodiac/zodiac/steinbock.jpg";
+    Tauschbild07b = new Image();
+    Tauschbild07b.src = "img/zodiac/zodiac/steinbock_text.jpg"; /* Highlight-Grafik */
+        
+    Tauschbild08a = new Image();
+    Tauschbild08a.src = "img/zodiac/zodiac/stier.jpg";
+    Tauschbild08b = new Image();
+    Tauschbild08b.src = "img/zodiac/zodiac/stier_text.jpg"; /* Highlight-Grafik */
 
-Tauschbild09a = new Image();
-Tauschbild09a.src = "img/zodiac/zodiac/waage.jpg";
-Tauschbild09b = new Image();
-Tauschbild09b.src = "img/zodiac/zodiac/waage_text.jpg"; /* Highlight-Grafik */
-    
-Tauschbild10a = new Image();
-Tauschbild10a.src = "img/zodiac/zodiac/wassermann.jpg";
-Tauschbild10b = new Image();
-Tauschbild10b.src = "img/zodiac/zodiac/wassermann_text.jpg"; /* Highlight-Grafik */
+    Tauschbild09a = new Image();
+    Tauschbild09a.src = "img/zodiac/zodiac/waage.jpg";
+    Tauschbild09b = new Image();
+    Tauschbild09b.src = "img/zodiac/zodiac/waage_text.jpg"; /* Highlight-Grafik */
+        
+    Tauschbild10a = new Image();
+    Tauschbild10a.src = "img/zodiac/zodiac/wassermann.jpg";
+    Tauschbild10b = new Image();
+    Tauschbild10b.src = "img/zodiac/zodiac/wassermann_text.jpg"; /* Highlight-Grafik */
 
-Tauschbild11a = new Image();
-Tauschbild11a.src = "img/zodiac/zodiac/widder.jpg";
-Tauschbild11b = new Image();
-Tauschbild11b.src = "img/zodiac/zodiac/widder_text.jpg"; /* Highlight-Grafik */
-    
-Tauschbild12a = new Image();
-Tauschbild12a.src = "img/zodiac/zodiac/zwilling.jpg";
-Tauschbild12b = new Image();
-Tauschbild12b.src = "img/zodiac/zodiac/zwilling_text.jpg"; /* Highlight-Grafik */
+    Tauschbild11a = new Image();
+    Tauschbild11a.src = "img/zodiac/zodiac/widder.jpg";
+    Tauschbild11b = new Image();
+    Tauschbild11b.src = "img/zodiac/zodiac/widder_text.jpg"; /* Highlight-Grafik */
+        
+    Tauschbild12a = new Image();
+    Tauschbild12a.src = "img/zodiac/zodiac/zwilling.jpg";
+    Tauschbild12b = new Image();
+    Tauschbild12b.src = "img/zodiac/zodiac/zwilling_text.jpg"; /* Highlight-Grafik */
     
 function Wechseln(name,Tauschbildname) {
   document.images[name].src = eval(Tauschbildname + ".src")
@@ -401,9 +425,9 @@ function Wechseln(name,Tauschbildname) {
     
 </script>
 
-<!--footer-->
 
-</div>
+
+<!--footer-->
 <?php
 
 include_once 'view/footer.php';

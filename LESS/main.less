@@ -42,7 +42,7 @@ a {
 
 .navbar-custom .navbar-nav > .active > a {
     color: @purple;
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
@@ -55,10 +55,15 @@ a {
     text-align: right;
 }
 
+.active {
+  background: @lightpurple;
+}
+
 .navbar-custom .navbar-toggle {
-    background-color:transparant;
+    background-color: transparant;
     margin-top: 13px;
 }
+
 .navbar-custom .icon-bar {
     background-color: @purple;
 }
@@ -83,11 +88,25 @@ a {
     background-color:#fff;
 }
 
-/*images*/
-
-.wrapper {
-  margin-top: 20px;
+.navAll {
+  padding-top: 20px;
 }
+
+@media (max-width: 767px) {
+  .navAll {
+    padding-top: 0px;
+    background-color: white;
+    margin-top: -5px;
+  }
+}
+
+.navbarBrandText {
+  text-align: left; 
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+/* images on INDEX*/
 
 .welcomeJuwellery {
     font-family: 'Jaldi', sans-serif;
@@ -122,25 +141,7 @@ a {
 }
 }
 
-/*footer*/
-.footer {
-    font-family: 'Jaldi', sans-serif;
-    margin-top: 60px;
-    border-top: 3px solid @lightpurple;
-    background-color: @lightpurple;
-  }
-
-
-address {
-    font-size: 16px;
-    padding-top: 20px;
-}
-
-#made {
-  font-size: 12px;
-}
-
-/*INDEX HEAD BILD*/
+/* INDEX-HERO img*/
 
 html, body{
   margin:0;
@@ -169,7 +170,7 @@ html, body{
   bottom:0;
   left:0;
   z-index:-1;
- background: @gradient
+  background: @gradient
 }
 .header:before{
   content:"";
@@ -198,14 +199,13 @@ html, body{
   color: @lightpurple !important;
 }
 
-/* INDEX-PIC GETTING BIGGER*/
+/* INDEX-PIC getting bigger*/
 @keyframes grow{
   0% { transform:scale(1)}
   50% { transform:scale(1.2)}
 }
 
 .frontButtonDown {
-    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -274,11 +274,6 @@ html, body{
     margin-top: 50px;
 }
 
-.pressText {
-  padding-right: 30px !important;
-
-}
-
 .jumbotron {
   background-color: @lightpurple !important;
 }
@@ -296,7 +291,6 @@ html, body{
     padding-top: 18px;
     margin-bottom: 20px;
 }
-
 
 /* images on the seite: COLLECTION*/
 
@@ -325,7 +319,6 @@ html, body{
   margin-top: 80px;
 }
 
-
 @media (max-width: 767px) {
 .img, .img-noir{
   .centerPic;
@@ -335,11 +328,9 @@ html, body{
 }
 }
 
-
 @media (max-width: 683px) {
 .col-xs-12, .imgLong{
   .centerPic;
-  margin-left: 10px;
   margin-bottom: 20px;
   margin-top: 10px;
 }
@@ -371,6 +362,11 @@ html, body{
 }
 
 /* Site ABOUT */
+
+.about {
+  margin-bottom: 50px;
+}
+
 .about, h4 {
   position: relative;
   top: 50%;
@@ -385,6 +381,8 @@ html, body{
 /* Site IMPRINT*/
 .imprint{
   font-family: 'Jaldi', sans-serif;
+  margin-top: 110px;
+  padding-bottom: 30px;
 }
 
 /* Button to top on Collection and Press*/
@@ -407,7 +405,7 @@ html, body{
     background-color: @purple; /* Add darker background on hover */
 }
 
-/* footer */
+/* Footer */
 .footer {
     font-family: 'Jaldi', sans-serif;
     margin-top: 60px;
