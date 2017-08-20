@@ -29,7 +29,7 @@
         <span><img id="welcomeLogo" src="img/index/Logo_Davidow.jpg" alt="logo" class="img-responsive"></span>
       <div class="row">
             <div class="col-xs-12 col-sm-6">
-                <span class="imgOlga"><img class="photoOlga" src="img/model/olgaSchwartzWeißQuadrat.jpg" alt="Davidow"></span>
+                <span class="imgOlga"><img class="photoOlga" src="img/model/olgaSW.jpg" alt="Davidow"></span>
             </div>
             <div class="col-xs-12 col-sm-6 about">
               <h2>O L G A  &nbsp; D A V I D O W</h2>
