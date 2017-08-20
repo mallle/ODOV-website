@@ -22,7 +22,7 @@
                         <a class="text-left" href="imprint.php">Imprint</a>
                     </div>
                     <div class="col-xs-6 col-md-6">
-                        <p class="text-right">Made with<span class="glyphicon glyphicon-heart" aria-hidden="true"></span> in münchen</p>
+                        <p class="text-right">Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> in münchen by Malene</p>
                     </div>
                 </div>
             </div>
