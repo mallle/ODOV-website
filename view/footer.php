@@ -19,10 +19,10 @@
             <div id="made">
                 <div class="row">
                     <div class="col-xs-6 col-md-6">
-                        <a class="text-left" href="imprint.php">Imprint</a>
+                        <a class="text-left" href="imprint.php">Legal Notice</a>
                     </div>
                     <div class="col-xs-6 col-md-6">
-                        <p class="text-right">Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> in münchen by Malene</p>
+                        <p class="text-right">Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> in Munich by Malene</p>
                     </div>
                 </div>
             </div>
