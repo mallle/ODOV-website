@@ -14,7 +14,7 @@
 <div class="wrapper">
   <div class="imprint">
     <div class="container">
-      <h3>Imprint</h3>
+      <h3>Legal Notice</h3>
 			<p>Angaben gemäß § 5 TMG:<br>
 			Olga Davidow<br>
 			Kugelmüllerstr. 17<br> 
