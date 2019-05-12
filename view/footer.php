@@ -5,7 +5,7 @@
                 <div class="col-xs-12 col-md-3">
                     <address>
                     <strong>OLGA DAVIDOW</strong><br>
-                    Kugelmüllerst. 17<br>
+                    Kuglmüllerst. 17<br>
                     80638 Munich - Germany<br>
                 </address>
                 </div>
