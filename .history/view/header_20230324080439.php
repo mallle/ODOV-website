@@ -11,7 +11,7 @@
     <!--<link rel='stylesheet' type='text/css' href='style.css'>-->
     
     <!--schriftart-->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
     <!-- Bootstrap -->
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet">
     Das neueste kompilierte und minimierte CSS -->
